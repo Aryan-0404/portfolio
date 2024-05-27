@@ -1,0 +1,102 @@
+/* Common CSS Section */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Arial;
+}
+
+html, body {
+    font-size: 14px;
+    font-weight: 400;
+    background: #000000;
+    color: #fff;
+}
+
+/* Container CSS */
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Project Section */
+.main-section {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+    background: #000000;
+}
+
+.heading-text {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffbf35; /* Yellow color */
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.experience-content .text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.experience-content h2 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #ffbf35; /* Yellow color */
+}
+
+.experience-content h3 {
+    color: #ffbf35; /* Yellow color */
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.experience-content p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.experience-content img {
+    max-width: 250px;
+    max-height: 250px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.experience-content a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffbf35; /* Yellow color */
+    margin-top: 10px;
+    border: 1px solid #ffbf35;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.experience-content a:hover {
+    background: #ffbf35;
+    color: #000000;
+}

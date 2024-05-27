@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg-lightgrey {
+    background-color: #1a1a1a;
+    padding: 20px;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.edu-exp-section {
+    display: flex;
+    width: 100%;
+}
+
+.edu-exp {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background: #333;
+    border-radius: 5px;
+}
+
+.heading-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.experience-list {
+    margin-bottom: 20px;
+}
+
+.experience-content {
+    background: #262626;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.experience-content h2 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.experience-content h3 {
+    color: #ffbf35;
+    font-weight: 500;
+    margin-bottom: 2px;
+    font-size: 17px;
+}
+
+.experience-content p {
+    font-size: 15px;
+}
